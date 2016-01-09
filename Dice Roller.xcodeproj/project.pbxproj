@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		610EE1991C41096E0005228B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EE1981C41096E0005228B /* AppDelegate.swift */; };
+		610EE19B1C41096E0005228B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EE19A1C41096E0005228B /* ViewController.swift */; };
+		610EE19D1C41096E0005228B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610EE19C1C41096E0005228B /* Assets.xcassets */; };
+		610EE1A01C41096E0005228B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610EE19E1C41096E0005228B /* Main.storyboard */; };
+		610EE1AB1C41096E0005228B /* Dice_RollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EE1AA1C41096E0005228B /* Dice_RollerTests.swift */; };
+		610EE1B61C41096E0005228B /* Dice_RollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610EE1B51C41096E0005228B /* Dice_RollerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		610EE1A71C41096E0005228B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 610EE18D1C41096E0005228B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 610EE1941C41096E0005228B;
+			remoteInfo = "Dice Roller";
+		};
+		610EE1B21C41096E0005228B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 610EE18D1C41096E0005228B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 610EE1941C41096E0005228B;
+			remoteInfo = "Dice Roller";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		610EE1951C41096E0005228B /* Dice Roller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Roller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		610EE1981C41096E0005228B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		610EE19A1C41096E0005228B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		610EE19C1C41096E0005228B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		610EE19F1C41096E0005228B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		610EE1A11C41096E0005228B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		610EE1A61C41096E0005228B /* Dice RollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice RollerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		610EE1AA1C41096E0005228B /* Dice_RollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_RollerTests.swift; sourceTree = "<group>"; };
+		610EE1AC1C41096E0005228B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		610EE1B11C41096E0005228B /* Dice RollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice RollerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		610EE1B51C41096E0005228B /* Dice_RollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_RollerUITests.swift; sourceTree = "<group>"; };
+		610EE1B71C41096E0005228B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		610EE1921C41096E0005228B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610EE1A31C41096E0005228B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610EE1AE1C41096E0005228B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		610EE18C1C41096E0005228B = {
+			isa = PBXGroup;
+			children = (
+				610EE1971C41096E0005228B /* Dice Roller */,
+				610EE1A91C41096E0005228B /* Dice RollerTests */,
+				610EE1B41C41096E0005228B /* Dice RollerUITests */,
+				610EE1961C41096E0005228B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		610EE1961C41096E0005228B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				610EE1951C41096E0005228B /* Dice Roller.app */,
+				610EE1A61C41096E0005228B /* Dice RollerTests.xctest */,
+				610EE1B11C41096E0005228B /* Dice RollerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		610EE1971C41096E0005228B /* Dice Roller */ = {
+			isa = PBXGroup;
+			children = (
+				610EE1981C41096E0005228B /* AppDelegate.swift */,
+				610EE19A1C41096E0005228B /* ViewController.swift */,
+				610EE19C1C41096E0005228B /* Assets.xcassets */,
+				610EE19E1C41096E0005228B /* Main.storyboard */,
+				610EE1A11C41096E0005228B /* Info.plist */,
+			);
+			path = "Dice Roller";
+			sourceTree = "<group>";
+		};
+		610EE1A91C41096E0005228B /* Dice RollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				610EE1AA1C41096E0005228B /* Dice_RollerTests.swift */,
+				610EE1AC1C41096E0005228B /* Info.plist */,
+			);
+			path = "Dice RollerTests";
+			sourceTree = "<group>";
+		};
+		610EE1B41C41096E0005228B /* Dice RollerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				610EE1B51C41096E0005228B /* Dice_RollerUITests.swift */,
+				610EE1B71C41096E0005228B /* Info.plist */,
+			);
+			path = "Dice RollerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		610EE1941C41096E0005228B /* Dice Roller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610EE1BA1C41096E0005228B /* Build configuration list for PBXNativeTarget "Dice Roller" */;
+			buildPhases = (
+				610EE1911C41096E0005228B /* Sources */,
+				610EE1921C41096E0005228B /* Frameworks */,
+				610EE1931C41096E0005228B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dice Roller";
+			productName = "Dice Roller";
+			productReference = 610EE1951C41096E0005228B /* Dice Roller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		610EE1A51C41096E0005228B /* Dice RollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610EE1BD1C41096E0005228B /* Build configuration list for PBXNativeTarget "Dice RollerTests" */;
+			buildPhases = (
+				610EE1A21C41096E0005228B /* Sources */,
+				610EE1A31C41096E0005228B /* Frameworks */,
+				610EE1A41C41096E0005228B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				610EE1A81C41096E0005228B /* PBXTargetDependency */,
+			);
+			name = "Dice RollerTests";
+			productName = "Dice RollerTests";
+			productReference = 610EE1A61C41096E0005228B /* Dice RollerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		610EE1B01C41096E0005228B /* Dice RollerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610EE1C01C41096E0005228B /* Build configuration list for PBXNativeTarget "Dice RollerUITests" */;
+			buildPhases = (
+				610EE1AD1C41096E0005228B /* Sources */,
+				610EE1AE1C41096E0005228B /* Frameworks */,
+				610EE1AF1C41096E0005228B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				610EE1B31C41096E0005228B /* PBXTargetDependency */,
+			);
+			name = "Dice RollerUITests";
+			productName = "Dice RollerUITests";
+			productReference = 610EE1B11C41096E0005228B /* Dice RollerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		610EE18D1C41096E0005228B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Anders Lidén";
+				TargetAttributes = {
+					610EE1941C41096E0005228B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					610EE1A51C41096E0005228B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 610EE1941C41096E0005228B;
+					};
+					610EE1B01C41096E0005228B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 610EE1941C41096E0005228B;
+					};
+				};
+			};
+			buildConfigurationList = 610EE1901C41096E0005228B /* Build configuration list for PBXProject "Dice Roller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 610EE18C1C41096E0005228B;
+			productRefGroup = 610EE1961C41096E0005228B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				610EE1941C41096E0005228B /* Dice Roller */,
+				610EE1A51C41096E0005228B /* Dice RollerTests */,
+				610EE1B01C41096E0005228B /* Dice RollerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		610EE1931C41096E0005228B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610EE19D1C41096E0005228B /* Assets.xcassets in Resources */,
+				610EE1A01C41096E0005228B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610EE1A41C41096E0005228B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610EE1AF1C41096E0005228B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		610EE1911C41096E0005228B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610EE19B1C41096E0005228B /* ViewController.swift in Sources */,
+				610EE1991C41096E0005228B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610EE1A21C41096E0005228B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610EE1AB1C41096E0005228B /* Dice_RollerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610EE1AD1C41096E0005228B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610EE1B61C41096E0005228B /* Dice_RollerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		610EE1A81C41096E0005228B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 610EE1941C41096E0005228B /* Dice Roller */;
+			targetProxy = 610EE1A71C41096E0005228B /* PBXContainerItemProxy */;
+		};
+		610EE1B31C41096E0005228B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 610EE1941C41096E0005228B /* Dice Roller */;
+			targetProxy = 610EE1B21C41096E0005228B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		610EE19E1C41096E0005228B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				610EE19F1C41096E0005228B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		610EE1B81C41096E0005228B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		610EE1B91C41096E0005228B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		610EE1BB1C41096E0005228B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Dice Roller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CAL-Technologies.Dice-Roller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		610EE1BC1C41096E0005228B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Dice Roller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CAL-Technologies.Dice-Roller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		610EE1BE1C41096E0005228B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Dice RollerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CAL-Technologies.Dice-RollerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice Roller.app/Contents/MacOS/Dice Roller";
+			};
+			name = Debug;
+		};
+		610EE1BF1C41096E0005228B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Dice RollerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CAL-Technologies.Dice-RollerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice Roller.app/Contents/MacOS/Dice Roller";
+			};
+			name = Release;
+		};
+		610EE1C11C41096E0005228B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Dice RollerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CAL-Technologies.Dice-RollerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dice Roller";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		610EE1C21C41096E0005228B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Dice RollerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CAL-Technologies.Dice-RollerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dice Roller";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		610EE1901C41096E0005228B /* Build configuration list for PBXProject "Dice Roller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610EE1B81C41096E0005228B /* Debug */,
+				610EE1B91C41096E0005228B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		610EE1BA1C41096E0005228B /* Build configuration list for PBXNativeTarget "Dice Roller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610EE1BB1C41096E0005228B /* Debug */,
+				610EE1BC1C41096E0005228B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		610EE1BD1C41096E0005228B /* Build configuration list for PBXNativeTarget "Dice RollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610EE1BE1C41096E0005228B /* Debug */,
+				610EE1BF1C41096E0005228B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		610EE1C01C41096E0005228B /* Build configuration list for PBXNativeTarget "Dice RollerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610EE1C11C41096E0005228B /* Debug */,
+				610EE1C21C41096E0005228B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 610EE18D1C41096E0005228B /* Project object */;
+}
