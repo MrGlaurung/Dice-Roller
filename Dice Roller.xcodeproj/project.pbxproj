@@ -478,6 +478,7 @@
 				610EE1BC1C41096E0005228B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		610EE1BD1C41096E0005228B /* Build configuration list for PBXNativeTarget "Dice RollerTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +487,7 @@
 				610EE1BF1C41096E0005228B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		610EE1C01C41096E0005228B /* Build configuration list for PBXNativeTarget "Dice RollerUITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +496,7 @@
 				610EE1C21C41096E0005228B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
