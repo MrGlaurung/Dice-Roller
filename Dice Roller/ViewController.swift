@@ -64,9 +64,13 @@ class ViewController: NSViewController
                     {
                         specialMax = 995;
                     }
-                    else
+                    else if(max > 99)
                     {
                         specialMax = 95;
+                    }
+                    else
+                    {
+                        specialMax = max - 1;
                     }
                 }
 
