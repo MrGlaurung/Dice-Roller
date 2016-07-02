@@ -28,21 +28,34 @@ class ViewController: NSViewController
     @IBOutlet weak var d1000OE: NSButton!
     @IBOutlet var OutputText: NSTextView!
     @IBOutlet weak var OutputScrollView: NSScrollView!
+    @IBOutlet weak var CleanUp: NSButton!
 
     @IBAction func PerformRoll(sender: AnyObject)
     {
         var total: Int = 0;
-        total += DoRoll(d4Amount, oe: d4OE, max: 4);
-        total += DoRoll(d6Amount, oe: d6OE, max: 6);
-        total += DoRoll(d8Amount, oe: d8OE, max: 8);
-        total += DoRoll(d10Amount, oe: d10OE, max: 10);
-        total += DoRoll(d12Amount, oe: d12OE, max: 12);
-        total += DoRoll(d20Amount, oe: d20OE, max: 20);
-        total += DoRoll(d100Amount, oe: d100OE, max: 100);
-        total += DoRoll(d1000Amount, oe: d1000OE, max: 1000);
-        OutputText.string = OutputText.string! + "Total: " + String(total) + "\n";
-        OutputText.string = OutputText.string! + "--------------------------------------\n";
+        let dice:[NSTextField:NSArray] = [
+                d4Amount:[d4OE, 4],
+                d6Amount:[d6OE, 6],
+                d8Amount:[d8OE, 8],
+                d10Amount:[d10OE, 10],
+                d12Amount:[d12OE, 12],
+                d20Amount:[d20OE, 20],
+                d100Amount:[d100OE, 100],
+                d1000Amount:[d1000OE, 1000]
+            ];
+        
+        for (die, dieArray) in dice
+        {
+            total += DoRoll(die, oe: dieArray[0] as! NSButton, max: dieArray[1] as! Int);
+        }
+        OutputText.string! += "Total: " + String(total) + "\n";
+        OutputText.string! += "--------------------------------------\n";
         OutputText.scrollToEndOfDocument(sender);
+    }
+    
+    @IBAction func CleanOutput(sender: AnyObject)
+    {
+        OutputText.string = "";
     }
     
     private func DoRoll(amount: NSTextField, oe: NSButton, max: Int) -> Int
@@ -51,7 +64,7 @@ class ViewController: NSViewController
         var total: Int = 0;
         if(nrRolls != nil && nrRolls != 0)
         {
-            OutputText.string = OutputText.string! + "Now rolling d" + String(max) + ": ";
+            OutputText.string! += "Now rolling d" + String(max) + ": ";
             for(var i: Int = 0; i < nrRolls; i++)
             {
                 var randomNr: Int, specialMax: Int;
@@ -82,9 +95,9 @@ class ViewController: NSViewController
                     textStr = textStr + String(randomNr);
                 } while(oe.state == NSOnState && randomNr >= specialMax)
                 
-                OutputText.string = OutputText.string! + textStr + " ";
+                OutputText.string! += textStr + " ";
             }
-            OutputText.string = OutputText.string! + "\n";
+            OutputText.string! += "= " + String(total) + "\n";
         }
         
         return total;

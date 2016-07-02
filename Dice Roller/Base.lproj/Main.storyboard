@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9531"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -693,9 +693,9 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PBN-mg-Amn" userLabel="D4Amount">
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PBN-mg-Amn" userLabel="D6Amount">
                                 <rect key="frame" x="39" y="341" width="37" height="22"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0" drawsBackground="YES" id="81y-qW-KNX" userLabel="D4Amout">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0" drawsBackground="YES" id="81y-qW-KNX" userLabel="D6Amout">
                                     <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="f2J-2G-uzD"/>
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -705,7 +705,7 @@
                                     <action selector="d4AmountAction:" target="XfG-lQ-9wD" id="3e8-Tx-zuq"/>
                                 </connections>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mgv-NH-1dQ" userLabel="D4Label">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mgv-NH-1dQ" userLabel="D6Label">
                                 <rect key="frame" x="80" y="336" width="30" height="25"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="D6" id="By0-9x-cN0">
                                     <font key="font" metaFont="system"/>
@@ -713,9 +713,9 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="urw-e5-xQr" userLabel="D4Amount">
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="urw-e5-xQr" userLabel="D8Amount">
                                 <rect key="frame" x="39" y="311" width="37" height="22"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0" drawsBackground="YES" id="VPj-Mh-wUS" userLabel="D4Amout">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0" drawsBackground="YES" id="VPj-Mh-wUS" userLabel="D8Amout">
                                     <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="PZA-J8-8yr"/>
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -725,7 +725,7 @@
                                     <action selector="d4AmountAction:" target="XfG-lQ-9wD" id="mb2-fI-qAZ"/>
                                 </connections>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s4C-7D-QJI" userLabel="D4Label">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s4C-7D-QJI" userLabel="D8Label">
                                 <rect key="frame" x="80" y="306" width="30" height="25"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="D8" id="aTS-CR-5Et">
                                     <font key="font" metaFont="system"/>
@@ -735,21 +735,21 @@
                             </textField>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vZ1-JR-CdM">
                                 <rect key="frame" x="125" y="373" width="50" height="18"/>
-                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="SpY-4k-ggS">
+                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="SpY-4k-ggS" userLabel="D4OE">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eWQ-q8-MZl">
                                 <rect key="frame" x="125" y="343" width="50" height="18"/>
-                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="gVj-Ef-yyM">
+                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="gVj-Ef-yyM" userLabel="D6OE">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xXN-0i-gT4">
                                 <rect key="frame" x="125" y="313" width="50" height="18"/>
-                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="jJ1-w2-BV3">
+                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="jJ1-w2-BV3" userLabel="D8OE">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -782,9 +782,9 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Vn-YB-y6e" userLabel="D4Amount">
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Vn-YB-y6e" userLabel="D10Amount">
                                 <rect key="frame" x="39" y="281" width="37" height="22"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0" drawsBackground="YES" id="7i1-Yu-UD5" userLabel="D4Amout">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0" drawsBackground="YES" id="7i1-Yu-UD5" userLabel="D10Amout">
                                     <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="Ruh-S6-wb5"/>
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -794,7 +794,7 @@
                                     <action selector="d4AmountAction:" target="XfG-lQ-9wD" id="r9C-J6-4a8"/>
                                 </connections>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xsi-0d-eSR" userLabel="D4Label">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xsi-0d-eSR" userLabel="D10Label">
                                 <rect key="frame" x="80" y="276" width="30" height="25"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="D10" id="yC1-ZO-LcY">
                                     <font key="font" metaFont="system"/>
@@ -804,7 +804,7 @@
                             </textField>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fwJ-S8-iPW">
                                 <rect key="frame" x="125" y="283" width="50" height="18"/>
-                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Brb-hD-ARd">
+                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Brb-hD-ARd" userLabel="D100OE">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
@@ -819,9 +819,9 @@
                                     <action selector="PerformRoll:" target="XfG-lQ-9wD" id="i9M-h7-VwC"/>
                                 </connections>
                             </button>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZzX-Mj-asO" userLabel="D4Amount">
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZzX-Mj-asO" userLabel="D12Amount">
                                 <rect key="frame" x="39" y="251" width="37" height="22"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0" drawsBackground="YES" id="Hc9-9Q-11f" userLabel="D4Amout">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0" drawsBackground="YES" id="Hc9-9Q-11f" userLabel="D12Amout">
                                     <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="orz-uC-HGW"/>
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -831,7 +831,7 @@
                                     <action selector="d4AmountAction:" target="XfG-lQ-9wD" id="8nh-Pd-0iS"/>
                                 </connections>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jm4-FG-0tW" userLabel="D4Label">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jm4-FG-0tW" userLabel="D12Label">
                                 <rect key="frame" x="80" y="246" width="30" height="25"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="D12" id="1bX-bp-fGv">
                                     <font key="font" metaFont="system"/>
@@ -839,9 +839,9 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P2v-db-dz3" userLabel="D4Amount">
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P2v-db-dz3" userLabel="D20Amount">
                                 <rect key="frame" x="39" y="221" width="37" height="22"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0" drawsBackground="YES" id="J4Z-N3-3XF" userLabel="D4Amout">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0" drawsBackground="YES" id="J4Z-N3-3XF" userLabel="D20Amout">
                                     <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="h5E-ge-lSq"/>
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -851,7 +851,7 @@
                                     <action selector="d4AmountAction:" target="XfG-lQ-9wD" id="o7R-Pw-Rum"/>
                                 </connections>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J7q-R2-K6v" userLabel="D4Label">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J7q-R2-K6v" userLabel="D20Label">
                                 <rect key="frame" x="80" y="216" width="30" height="25"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="D20" id="Ddq-fW-KTY">
                                     <font key="font" metaFont="system"/>
@@ -859,9 +859,9 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NGk-wy-0Sr" userLabel="D4Amount">
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NGk-wy-0Sr" userLabel="D100Amount">
                                 <rect key="frame" x="39" y="191" width="37" height="22"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0" drawsBackground="YES" id="Oid-3e-evK" userLabel="D4Amout">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0" drawsBackground="YES" id="Oid-3e-evK" userLabel="D100Amout">
                                     <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="Zx6-dz-Ebv"/>
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -871,7 +871,7 @@
                                     <action selector="d4AmountAction:" target="XfG-lQ-9wD" id="gOq-xy-tXd"/>
                                 </connections>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oRL-Zk-N1h" userLabel="D4Label">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oRL-Zk-N1h" userLabel="D100Label">
                                 <rect key="frame" x="80" y="186" width="41" height="25"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="D100" id="Jwc-kj-Wjt">
                                     <font key="font" metaFont="system"/>
@@ -879,9 +879,9 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Njp-af-HQF" userLabel="D4Amount">
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Njp-af-HQF" userLabel="D1000Amount">
                                 <rect key="frame" x="39" y="161" width="37" height="22"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0" drawsBackground="YES" id="MxA-OY-Wy8" userLabel="D4Amout">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0" drawsBackground="YES" id="MxA-OY-Wy8" userLabel="D1000Amout">
                                     <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="FQf-m0-o5g"/>
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -891,7 +891,7 @@
                                     <action selector="d4AmountAction:" target="XfG-lQ-9wD" id="5ES-4P-IqY"/>
                                 </connections>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pX1-iV-G0f" userLabel="D4Label">
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pX1-iV-G0f" userLabel="D1000Label">
                                 <rect key="frame" x="80" y="156" width="41" height="25"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="D1000" id="3DV-cU-UXH">
                                     <font key="font" metaFont="system"/>
@@ -901,35 +901,46 @@
                             </textField>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kWY-E7-Iz4">
                                 <rect key="frame" x="125" y="163" width="50" height="18"/>
-                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Sf1-WS-zXR">
+                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Sf1-WS-zXR" userLabel="D1000OE">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tdw-C0-bV7">
                                 <rect key="frame" x="125" y="223" width="50" height="18"/>
-                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="rOf-Y9-IPR">
+                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="rOf-Y9-IPR" userLabel="D20OE">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hGb-ut-3XU">
                                 <rect key="frame" x="125" y="253" width="50" height="18"/>
-                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Erk-MW-bJd">
+                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Erk-MW-bJd" userLabel="D12OE">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xar-OK-mWj">
                                 <rect key="frame" x="125" y="193" width="50" height="18"/>
-                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="egd-wR-yvz">
+                                <buttonCell key="cell" type="check" title="OE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="egd-wR-yvz" userLabel="D100OE">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zIr-QI-KGc">
+                                <rect key="frame" x="33" y="74" width="115" height="32"/>
+                                <buttonCell key="cell" type="push" title="Clear Output" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8iP-Wb-1ng">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="CleanOutput:" target="XfG-lQ-9wD" id="Lx5-gy-dHz"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
+                        <outlet property="CleanUp" destination="zIr-QI-KGc" id="aHN-cx-jMV"/>
                         <outlet property="Output" destination="E4k-6G-2pa" id="jek-mW-sTt"/>
                         <outlet property="OutputScrollView" destination="E4k-6G-2pa" id="Anw-SA-akB"/>
                         <outlet property="OutputText" destination="cLa-bM-g3E" id="wan-GP-009"/>
